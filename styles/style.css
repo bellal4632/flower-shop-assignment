@@ -84,52 +84,49 @@ header {
     margin-bottom: 25px;
 }
 
-.flower-img-conainer {
+.image-section{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+.flower-img-conainer{
+    width: 320px;
+}
+.image{
+    
+    width: auto;
+   display: flex;
+   align-items: end;
+   justify-content: center;
+   height: 370px;
+}
+.image>img{
+    width: 250px;
+    
 }
 
-
-
-.flower-image {
-    display: inline;
-    flex-direction: row;
-    justify-content: center;
-    align-items: end;
-    text-align: center;
-    height: 305px;
-    width: 260px;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-
+#c-01{
+    background-image: url("../assets/rectangle-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-#c-01 {
-    background-color: #477D1126;
+#c-02{
+    background-image: url("../assets/rectangle-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-#c-02 {
-    background-color: #0597A026;
+#c-03{
+    background-image: url("../assets/rectangle-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-#c-03 {
-    background-color: #A7216226;
-}
-
-.flower-image img {
-    height: 250px;
-    align-self: flex-end;
-}
-
 .flower-text {
     color: #272727;
     text-align: center;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
 }
-
 .support-section{
     display: flex;
     justify-content: space-around;
