@@ -7,7 +7,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-section{
+section {
     text-align: center;
 }
 
@@ -90,37 +90,71 @@ header {
     align-items: flex-end;
 }
 
-.flower-image-1>img, .flower-image-2>img, .flower-image-3>img {
-    margin:25px ;
+.flower-image-1>img,
+.flower-image-2>img,
+.flower-image-3>img {
+    margin: 25px;
     /* height: 100%; */
     width: 200px;
-    #myimg{
-        position:absolute;
-        bottom:0px;
+
+    #myimg {
+        position: absolute;
+        bottom: 0px;
     }
 }
 
-.flower-image-1, .flower-image-2, .flower-image-3 {
+.flower-image-1,
+.flower-image-2,
+.flower-image-3 {
     border-radius: 300px 300px 0px 0px;
     height: 300px;
     width: 250px;
 }
-.flower-image-1{
+
+.flower-image-1 {
     background: rgba(167, 33, 98, 0.15);
 
 }
-.flower-image-2{
-    background: rgba(167, 33, 98, 0.15);
-}
-.flower-image-3{
+
+.flower-image-2 {
     background: rgba(167, 33, 98, 0.15);
 }
 
-.deals-container{
+.flower-image-3 {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.deals-container {
     display: flex;
-    background-color: #ff00371a;;
+    background-color: #ff00371a;
+    ;
     height: 80vh;
     justify-content: space-between;
     align-items: center;
     padding: 0 150px;
 }
+
+.instagram {
+    padding: 0 150px;
+    margin-top: 100px;
+}
+
+.post-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-container>img {
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* footer section */
+
+footer{
+    padding: 100px 150px;
+    background-color: #111010;
+    text-align: center;
+}
+
